@@ -1,0 +1,265 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+}
+#blank
+{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin-left: 0px;
+}
+#blank span
+{
+    color: #d7d7d7;
+}
+#navbar
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px;
+    margin-top: 4px;
+    border-bottom: 1px solid gainsboro;
+}
+.logo
+{
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+}
+.logo h1
+{
+    font-size: 30px;
+    margin: 0px;
+    padding: 14px;
+}
+.list
+{
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-left: 70px;
+    margin-top: 3px;
+}
+.list ul li 
+{
+    display: inline-block;
+}
+.list a
+{
+    text-decoration: none;
+    color: #9a9a9a;
+    font-size: 15px;
+    letter-spacing: 0px;
+    margin: 10px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.btn 
+{
+    width: 8%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    padding: 9px;
+    letter-spacing: 5px;
+}
+.btn button
+{
+    border-style: none;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 2px;
+    letter-spacing: 3px;
+}
+#content
+{
+    width: 100%;
+    height: 430px;
+    background: url('https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?w=900&t=st=1697566618~exp=1697567218~hmac=39fa214eb419812612fafedc1fe5b0b560c54a3051bbde78332154493841d544') no-repeat;
+    background-attachment: fixed;   
+    background-size: 100% 610px;
+    margin-left: 0px;
+    border-top: 10px solid white;
+    position: relative;
+
+}
+.back 
+{
+    width: 40%;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 350px;
+    padding: 30px;
+
+}
+.back h1 
+{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.back p 
+{
+    text-align: center;
+    font-size: 16px;
+    color: #a1a1a1  ;
+}
+.back hr
+{
+    width: 12%;
+    margin-left: 43%;
+    border: 2px solid black;
+}
+.back button
+{
+    width: 25%;
+    height: auto;
+    padding: 9px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    margin-left: 37%;
+    margin-top: 12px;
+    border-radius: 1px;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    #blank
+    {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 5px 0px;
+        margin-left: 0px;
+    }
+    #blank span
+    {
+        color: #d7d7d7;
+    }
+    #navbar
+    {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 0px;
+        margin-top: 4px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .logo
+    {
+        width: 10%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .logo h1
+    {
+        font-size: 25px;
+        margin: 0px;
+        padding: 15px 5px;
+    }
+    .list
+    {
+        width: 80%;
+        height: auto;
+        margin-left: 15px;
+        margin-top: 0px; 
+    }
+    .list ul li 
+    {
+        display: inline-block;
+    }
+    .list a
+    {
+        text-decoration: none;
+        color: #9a9a9a;
+        font-size: 11px;
+        letter-spacing: 1px;
+        margin: 0px;
+        padding: 10px 2px;
+        text-transform: uppercase;
+    }
+    .btn 
+    {
+        width: 8%;
+        height: auto;
+        margin-left: 5px;
+        padding: 9px;
+        letter-spacing: 5px;
+      
+    }
+    .btn button
+    {
+        border-style: none;
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 2px;
+        letter-spacing: 3px;
+    }
+    #content
+    {
+        width: 100%;
+        height: 339px;
+        background: url('https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg?w=900&t=st=1697566618~exp=1697567218~hmac=39fa214eb419812612fafedc1fe5b0b560c54a3051bbde78332154493841d544') no-repeat;
+        background-attachment: fixed;   
+        background-size: 100% 500px;
+        margin-left: 0px;
+        border-top: 10px solid white;
+        position: relative;
+    
+    }
+    .back 
+    {
+        width: 85%;
+        height: auto;
+        background-color: white;
+        position: absolute;
+        margin-top: 96px;
+        margin-left: 17px;
+        padding: 5px;
+    
+    }
+    .back h1 
+    {
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .back p 
+    {
+        text-align: center;
+        font-size: 12px;
+        color: #a1a1a1  ;
+    }
+    .back hr
+    {
+        width: 12%;
+        margin-left: 43%;
+        border: 2px solid black;
+    }
+    .back button
+    {
+        width: 25%;
+        height: auto;
+        padding: 5%;
+        border-style: none;
+        background-color: black;
+        color: white;
+        margin-left: 37%;
+        margin-top: 1px;
+        border-radius: 1px;
+        font-size: 6px;
+    } 
+}
